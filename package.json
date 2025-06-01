@@ -1,0 +1,38 @@
+{
+  "name": "admin-project",
+  "version": "1.0.0",
+  "description": "This project is a web application that allows users to vote for their preferred candidates in an election. The project uses MongoDB for database management and has three collections for candidates, elections, and users.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "frontend": "cd Client && npm run start",
+    "newFrontend": "cd Client && npm install && npm run start",
+    "backend": "cd server && nodemon main",
+    "newBackend": "cd server && npm install && nodemon main"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prnvbaraiya/admin-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prnvbaraiya/admin-project/issues"
+  },
+  "homepage": "https://github.com/prnvbaraiya/admin-project#readme",
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^7.1.0",
+    "@mui/material": "^7.1.0",
+    "framer-motion": "^12.12.1",
+    "react-router-dom": "^6.30.1",
+    "react-webcam": "^7.2.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.1.7"
+  }
+}
